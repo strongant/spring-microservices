@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.euroka.eurekaserver.EurekaServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.626 s <<< FAILURE! - in com.euroka.eurekaserver.EurekaServerApplicationTests
+com.euroka.eurekaserver.EurekaServerApplicationTests  Time elapsed: 0.621 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+

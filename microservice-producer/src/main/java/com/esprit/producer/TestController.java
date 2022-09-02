@@ -10,12 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-	@Autowired
-	private TopicProducer topicProducer;
-
 	@RequestMapping(method = RequestMethod.GET, value = "/api/produce/")
 	public String getTokenDetails(@RequestHeader HttpHeaders headers) {
-		topicProducer.send("Message de test");
 		return headers.toString();
 	}
 
